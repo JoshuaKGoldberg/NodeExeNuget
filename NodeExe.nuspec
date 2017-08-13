@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>NodeExe</id>
+    <title>NodeExe</title>
+    <version>8.3.0</version>
+    <authors>palantir</authors>
+    <owners>joshuakgoldberg</owners>
+    <licenseUrl>https://github.com/nodejs/node/blob/master/LICENSE</licenseUrl>
+    <projectUrl>https://github.com/nodejs/node</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Redistribution of Node executables.</description>
+    <tags>node exe nuget</tags>
+  </metadata>
+  <files>
+    <file src="node.exe" target="tools\node.exe" />
+  </files>
+</package>

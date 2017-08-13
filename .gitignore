@@ -1,0 +1,5 @@
+node_modules
+*.*.*.nupkg
+
+# For those who prefer to use a local nuget.exe, rather than via PATH
+*.exe
